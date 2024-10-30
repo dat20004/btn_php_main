@@ -1,0 +1,254 @@
+.header-teacher {
+    background-color: #222d32;
+}
+.header-teacher .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teacher-img {
+    width: 90px;
+    height: 90px;
+}
+.teacher-img img {
+    width: 100%;
+    height: 100%;
+}
+.teacher-search form {
+    position: relative;
+}
+.teacher-search .form-group input {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.teacher-search button {
+    position: absolute;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    top: 10px;
+    left: 3px;
+}
+.teacher-noti i {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #4b2b9d;
+    color: white;
+}
+.menu-item {
+    background-color: #6f42c1;
+    color: white;
+}
+.menu-item:hover {
+    background-color: #5a32a1;
+}
+.list-group-item.active {
+    background-color: #4b2b9d;
+}
+.content-section {
+    background-color: #dce6f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+.sidebar {
+    background-color: #222d32;
+}
+.menu-item {
+    background-color: inherit;
+}
+.menu-item:hover {
+    background-color: inherit;
+    cursor: pointer;
+}
+.teacher-main {
+    background-color: #222d32;
+}
+.student-list {
+    display: flex;
+    justify-content: space-between;
+}
+.student-search {
+    position: relative;
+}
+.student-search button {
+    position: absolute;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    right: 0;
+    color: #222d32;
+    bottom: -5px;
+}
+.student-search input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.student-limit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.student-limit p {
+    margin: 0;
+}
+.student-limit select {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+.change-password .mb-3 {
+    display: flex;
+}
+.change-password .mb-3 label {
+    width: 15%;
+}
+.change-password .mb-3 div {
+    position: relative;
+}
+.change-password .mb-3 div input {
+    border: none;
+    outline: none;
+    padding: 3px 25px 3px 10px;
+}
+.change-password i {
+    position: absolute;
+    right: 5px;
+    bottom: 9px;
+}
+.teacher-content__section form .form-group {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.teacher-content__section form .form-group label {
+    width: 20%;
+}
+.teacher-content__section form .form-group input {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.info-main {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+.info-main img {
+    width: 350px;
+    /* Kích thước hình ảnh, có thể tùy chỉnh */
+    height: 350px;
+    /* Đảm bảo chiều rộng và chiều cao bằng nhau để tạo hình tròn */
+    border-radius: 50%;
+    /* Làm tròn các góc để tạo thành hình tròn */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh được cắt đúng kích thước, tránh méo ảnh */
+}
+.info-main form {
+    width: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 15px;
+    /* background-color: #28a745; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* button:hover {
+    background-color: #218838;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.chapter-actions {
+    text-align: right;
+}
+
+.lesson-list {
+    display: none; /* Mặc định ẩn danh sách bài học */
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #68ff88;
+    color: #fff;
+    margin: 0;
+}
+#students .student-search {
+    width: 18%;
+    margin: 10px 0;
+}
